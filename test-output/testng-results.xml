@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-11T13:58:18 EST" name="Default suite" finished-at="2021-12-11T13:58:44 EST" duration-ms="25741">
+  <suite started-at="2021-12-29T21:13:48 EST" name="Suite2" finished-at="2021-12-29T21:13:54 EST" duration-ms="5679">
     <groups>
+      <group name="Regression">
+        <method signature="orangeHRMTestCase.loginToHRM()[pri:0, instance:TestCases.orangeHRMTestCase@6bedbc4d]" name="loginToHRM" class="TestCases.orangeHRMTestCase"/>
+      </group> <!-- Regression -->
+      <group name="functionalTest">
+        <method signature="orangeHRMTestCase.loginToHRM()[pri:0, instance:TestCases.orangeHRMTestCase@6bedbc4d]" name="loginToHRM" class="TestCases.orangeHRMTestCase"/>
+      </group> <!-- functionalTest -->
+      <group name="smokeTest">
+        <method signature="orangeHRMTestCase.loginToHRM()[pri:0, instance:TestCases.orangeHRMTestCase@6bedbc4d]" name="loginToHRM" class="TestCases.orangeHRMTestCase"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2021-12-11T13:58:18 EST" name="Default test" finished-at="2021-12-11T13:58:44 EST" duration-ms="25741">
-      <class name="TestCases.amazonTest123">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.amazonTest123@44821a96]" started-at="2021-12-11T13:58:18 EST" name="setUp" finished-at="2021-12-11T13:58:26 EST" duration-ms="7930" status="PASS">
+    <test started-at="2021-12-29T21:13:48 EST" name="Test2" finished-at="2021-12-29T21:13:54 EST" duration-ms="5679">
+      <class name="TestCases.orangeHRMTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.orangeHRMTestCase@6bedbc4d]" started-at="2021-12-29T21:13:48 EST" name="setUp" finished-at="2021-12-29T21:13:51 EST" duration-ms="3479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="amazonTest()[pri:0, instance:TestCases.amazonTest123@44821a96]" started-at="2021-12-11T13:58:26 EST" name="amazonTest" finished-at="2021-12-11T13:58:44 EST" duration-ms="17754" status="PASS">
+        <test-method signature="loginToHRM()[pri:0, instance:TestCases.orangeHRMTestCase@6bedbc4d]" started-at="2021-12-29T21:13:51 EST" name="loginToHRM" description="This test tests the login functionality of the Orange HRM application" finished-at="2021-12-29T21:13:53 EST" duration-ms="1883" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazonTest -->
-      </class> <!-- TestCases.amazonTest123 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginToHRM -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.orangeHRMTestCase@6bedbc4d]" started-at="2021-12-29T21:13:53 EST" name="tearDown" finished-at="2021-12-29T21:13:54 EST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.orangeHRMTestCase -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite2 -->
 </testng-results>

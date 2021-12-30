@@ -9,9 +9,7 @@
 		</groups>
 
 		<classes>
-			<class name="TestCases.iFrame" />
-			<class name="TestCases.searchTest" />
-			<class name="TestCases.TestNG_AnnotationTasks" />
+			
 			<class name="TestCases.orangeHRMTestCase" />
 		</classes>
 	</test> <!-- Test -->

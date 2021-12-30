@@ -31,7 +31,7 @@ public class Driver {
 				driver = new ChromeDriver();
 				// Test Data reader ( property file reader ) -- the "url" is coming from
 				// property file
-				Driver.getDriver().get(testDataReader.getProperty("urlamazon"));
+				Driver.getDriver().get(testDataReader.getProperty("orangeURL"));
 				Driver.getDriver().manage().window().maximize();
 				// initializes the pages by calling the method
 				PageInitializer.initialize();
