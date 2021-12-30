@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Parallel Test(failed)">
+    <classes>
+      <class name="TestCases.orangeHRMTestCase">
+        <methods>
+          <include name="loginToHRM4"/>
+          <include name="loginToHRM3"/>
+          <include name="tearDown"/>
+          <include name="loginToHRM"/>
+          <include name="loginToHRM2"/>
+          <include name="setUp"/>
+          <include name="deleteNationality"/>
+        </methods>
+      </class> <!-- TestCases.orangeHRMTestCase -->
+    </classes>
+  </test> <!-- Parallel Test(failed) -->
+</suite> <!-- Failed suite [Parallel Testing] -->
